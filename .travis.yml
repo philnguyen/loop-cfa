@@ -40,7 +40,7 @@ before_script:
 # required packages without getting stuck on a confirmation prompt.
 script:
   - cd loop-cfa
-  - raco pkg install --dep search-auto
+  - raco pkg install --deps search-auto
   - raco test examples.rkt
 
 # NOTE: If your repo is a Racket package with an info.rkt that
