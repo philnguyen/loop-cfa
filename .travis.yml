@@ -41,7 +41,7 @@ before_script:
 script:
   - cd loop-cfa
   - raco pkg install
-  - raco test tests.rkt
+  - raco test examples.rkt
 
 # NOTE: If your repo is a Racket package with an info.rkt that
 # includes some `deps`, the following is more elegant:
